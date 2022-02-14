@@ -9,6 +9,11 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Realtor Real Estate</title>
                 <link rel="icon" href="/favicon.png" />
+                <meta name="description" content="Realtor Real Estate" />
+                <meta name="title" property="og:title" content="Realtor" />
+                <meta property="og:type" content="website" />
+                <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51880186577_41b3f75e78_h.jpg" />
+                <meta name="description" property="og:description" content="Realtor Real Estate" /><meta name="author" content="Sagor Roy" />
             </Head>
             <Box maxWidth="1280px" m="auto">
                 <header>
